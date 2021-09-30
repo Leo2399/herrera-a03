@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 first_name last_name
+ */
+
 package baseline;
 
 import java.util.Arrays;
@@ -14,8 +19,8 @@ public class Solution24 {
         if(Str1.length() != Str2.length()){
              status  = false;
         }
-        char arr1[] = Str1.toCharArray();
-        char arr2[] = Str2.toCharArray();
+        char arr1[] = Str1.replaceAll("\\s", "").toLowerCase().toCharArray();
+        char arr2[] = Str2.replaceAll("\\s", "").toLowerCase().toCharArray();
 
         // check both strings for same characters
         Arrays.sort(arr1);
