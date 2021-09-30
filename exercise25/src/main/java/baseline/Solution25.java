@@ -14,19 +14,19 @@ public class Solution25 {
     public static void passwordValidator(String Str){
         //Str is only numbers and Str.length < 8
         //"password is very weak"
-        // add 25
+        // strength =  25
 
         //Str is only letters and Str.length < 8
         //"password is weak"
-        // add 50
+        // strength =  50
 
         //Str contains letter snd at least one number && Str.length >= 8
         //"password is strong"
-        // add 75
+        // strength = 75
 
         //Str contains letters, numbers, and special characters, and Str.length >= 8
         //"password is very strong"
-        // add 100
+        // strength = 100
 
         //Str contains none of the above
         //"password is of unknown strength"
