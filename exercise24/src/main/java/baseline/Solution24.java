@@ -11,14 +11,10 @@ import java.util.Scanner;
 public class Solution24 {
     private static final Scanner  in = new Scanner(System.in);
 
-    static void isAnagram(String Str1, String Str2){
+    public static boolean isAnagram(String Str1, String Str2){
 
-        boolean status = true;
+        //boolean status = true;
 
-        // if the lengths the strings don't match, return false
-        if(Str1.length() != Str2.length()){
-             status  = false;
-        }
         char arr1[] = Str1.replaceAll("\\s", "").toLowerCase().toCharArray();
         char arr2[] = Str2.replaceAll("\\s", "").toLowerCase().toCharArray();
 
@@ -26,14 +22,14 @@ public class Solution24 {
         Arrays.sort(arr1);
         Arrays.sort(arr2);
 
-        status = Arrays.equals(arr1, arr2);
-
         // return true if they are equal
-        if(status){
+        if(Arrays.equals(arr1, arr2)){
             System.out.println("\""+ Str1+"\"" + " and " + "\""+Str2+"\"" + " are anagrams.");
+            return true;
         }
         else{
-            System.out.println(Str1+" and "+Str2+" are not anagrams");
+            System.out.println("\""+Str1+"\""+" and "+"\""+Str2+"\""+" are not anagrams");
+            return false;
         }
     }
 
