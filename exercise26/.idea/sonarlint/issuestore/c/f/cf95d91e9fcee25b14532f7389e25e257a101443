@@ -1,0 +1,9 @@
+
+E
+java:S1068"*Remove this unused "months" private field.(ŒëÊıùÿÿÿÿ
+F
+java:S1068"+Remove this unused "balance" private field.(©Åûøÿÿÿÿ
+G
+java:S1068",Remove this unused "payments" private field.(»°Êõıÿÿÿÿ
+w
+java:S1104"UMake dailyRate a static final constant or non-public and provide accessors if needed.(©‡±ıÿÿÿÿÿ8ı£üÃ/
