@@ -82,7 +82,7 @@ public class Solution32 {
         int guess = 0;
         int totalGuesses = 0;
 
-        System.out.print("I have my number. What's guess: ");
+        System.out.print("I have my number. What's your guess: ");
         while(guess!=randNum){
             guess = in.nextInt();
             totalGuesses++;
