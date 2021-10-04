@@ -1,0 +1,10 @@
+
+R
+java:S1854"<Remove this useless assignment to local variable "question".(ÈÏÜç
+E
+java:S1197"*Move the array designators [] to the type.(¢Å¢ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–îÑØ
+C
+java:S1481"-Remove this unused "question" local variable.(ÈÏÜç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª‚…öúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Å¢ÿÿÿÿÿ
